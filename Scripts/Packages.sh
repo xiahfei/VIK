@@ -48,7 +48,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "design" "/0x676e67/luci-theme-design" "js"
 UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci/tree/luci/luci-app-linkease" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
-UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
+#UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
 
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
