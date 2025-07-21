@@ -45,7 +45,7 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "open-app-filter" "destan19/OpenAppFilter" "master" "" "luci-app-appfilter oaf" 这样会把原有的open-app-filter，luci-app-appfilter，oaf相关组件删除，不会出现coremark错误。
 
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
-#UPDATE_PACKAGE "design" "/kenzok78/luci-theme-design" "js"
+#UPDATE_PACKAGE "design" "kenzok78/luci-theme-design" "js"
 UPDATE_PACKAGE "neobird" "BootLoopLover/luci-theme-neobird" "master"
 #UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci/luci/luci-app-linkease" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
