@@ -47,7 +47,7 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
 #UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "master"
 UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
-UPDATE_PACKAGE "gecoosac" "laipeng668/luci-app-gecoosac" "main"
+UPDATE_PACKAGE "gecoosac" "laipeng668/luci-app-gecoosac" "main" "tree" "luci-app-gecoosac"
 #UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci/luci" "main" "tree" "luci-app-linkease"
 #UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
 
