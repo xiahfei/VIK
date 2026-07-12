@@ -49,7 +49,7 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 #UPDATE_PACKAGE "gecoosac" "VIKINGYFY/packages/gecoosac" "main" "tree" "luci-app-gecoosac"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac"
-UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci" "main" "" "luci-app-linkease"
+UPDATE_PACKAGE "linkease" "linkease/nas-packages-luci/luci" "main" "tree" "luci-app-linkease"
 #UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
 
 
