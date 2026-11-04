@@ -74,7 +74,7 @@ UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
 #UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 #UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
-UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac"
+UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac miniupnpd luci-app-upnp"
 #UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 #更新软件包版本
